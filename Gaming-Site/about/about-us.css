@@ -1,0 +1,124 @@
+/* All Page */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+/* Navigation */
+.nav-wrapper{
+    display: flex;
+    padding:30px;
+    background-color: #A62349;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+}
+.right-side{
+    display: flex;
+}
+.container > .nav-wrapper >.right-side >div{
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container > .nav-wrapper >.left-side >div{
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Link-wrapper{
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.Link-wrapper  a {
+    color:black;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.Link-wrapper :hover{
+    border-bottom:2px solid #D07000;
+}
+.Link-wrapper  :hover{
+    color: #D07000;
+    
+}
+/* body {
+    background-color: #808080;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #080808;
+} */
+h2, h3 {
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    /* text-align: center; */
+    width: 65%;
+    padding-left: 250px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+/* #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+} */
+.container{
+    height: 100vh;
+    /* width: ; */
+}
+#gallery img {
+    width: 20%;
+    object-fit: cover;
+    
+    margin: 50px 0;
+    padding: 0 20px;
+    border-radius: 50%;
+}
+#content {
+    text-align: justify;
+    text-align-last: justify;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+}
+footer {
+    font-weight: bold;
+}
+.red{
+    background-image: url("../images/5.jpg");
+}
+.aboutus{
+    margin: 15px;
+    font-size: 2rem;
+}
+.welcome{
+    margin-bottom: 14px;
+}
+.img{
+    height: 50px;
+}
+.sahil{
+    height: 180px;
+    width: 170px;
+    /* border: solid black 1px; */
+    /* border-radius: 50px; */
+    float: left;
+    margin-left:600px ;
+}
+.sahil{
+    background-image: url('../images/gamepad.png');
+    background-size: cover;
+}

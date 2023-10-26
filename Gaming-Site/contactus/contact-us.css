@@ -1,0 +1,150 @@
+/* All Page */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-image: url('../images/5.jpg');
+}
+/* Navigation */
+.nav-wrapper{
+    display: flex;
+    padding:30px;
+    background-color: #A62349;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+}
+.right-side{
+    display: flex;
+}
+.container > .nav-wrapper >.right-side >div{
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container > .nav-wrapper >.left-side >div{
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Link-wrapper{
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.Link-wrapper  a {
+    color:black;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.Link-wrapper :hover{
+    border-bottom:2px solid #D07000;
+}
+.Link-wrapper  :hover{
+    color: #D07000;
+    
+}
+
+body {
+
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/08/20/29/chess-2730034_1280.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 99%;
+}
+
+.main {
+    text-align: center;
+}
+
+.glow {
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-top: 0;
+}
+
+form {
+    font-size: large;
+    line-height: 30px;
+}
+
+#connect {
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    width: 70%;
+}
+.center {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 70%;
+    height: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    resize: unset;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.deets {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f268;
+    padding: 20px;
+    width: 60%;
+}
+
+.handles {
+    font-size: 30px;
+    color: rgb(240, 254, 255);
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+
+.main1 {
+    width: 99%;
+}

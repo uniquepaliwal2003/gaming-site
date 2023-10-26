@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <title>Stone Paper Scisor Game</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="SPC.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <script src="SPC.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- //nav bar code-->
+    <div class="nav-wrapper">
+        <div class="right-side">
+            <div class="Link-wrapper">
+                <a href="../index.html">Home</a>
+            </div>    
+            <div class="Link-wrapper">
+                <a href="../about/about-us.html">About Us</a>
+            </div>    
+            <div class="Link-wrapper">
+                <a href="../contactus/contact-us.html">Contact Us</a>
+            </div>    
+        </div>
+        <div class="left-side">
+            <div class="Link-wrapper">
+                <a href="../login/login game.html">Login/Register</a>
+            </div>
+        </div>
+    </div>
+  <h1 class="container">Choose your weapon</h1>
+
+
+  <div class="container image">
+    <div class="weapon">
+      <p>Player 1</p>
+      <img class="img1" src="images/QuestionMark.png">
+    </div>
+
+    <div class="weapon">
+      <p>Computer</p>
+      <img class="img2" src="images/QuestionMark.png">
+    </div>
+  </div>
+
+
+  <div class="buttons">
+    <input type="image" src="images/Rockbutton.png" onclick="showresultsrock();">
+    <input type="image" src="images/Paperbutton.png" onclick="showresultspaper();">
+    <input type="image" src="images/Scissorbutton.png" onclick="showresultsscissor();">
+  </div>
+
+  <div><center>
+    <button onclick="window.location.href='../index.html';" style="background-color:#FF0000 ; border: 0; padding-left: 3rem; padding-right: 3rem ; padding-top: 0.5rem; padding-bottom:0.5rem ; font-size: 1.5rem; color: white; margin-top:1.5rem" type="button" class="color btn btn-primary gap" >Home</button></center>
+</div>
+
+  <script src="./SPC.js"></script>
+</body>
+
+</html>
